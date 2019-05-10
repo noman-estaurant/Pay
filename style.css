@@ -1,0 +1,265 @@
+.navigationbar {
+  position: fixed;
+  top: 0px;
+  font-weight: 600;
+  width: 100%;
+  height: 64px;
+  margin: 0px;
+  background-color: white;
+  z-index: 5;
+}
+.navigationbar .title {
+  font-size: 17.5px;
+  position: absolute;
+  top: 31px;
+  left: 171px;
+}
+.navigationbar .back {
+  width: 22px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  stroke: black;
+  stroke-width: 3px;
+}
+.navigationbar .cart img {
+  position: absolute;
+  top: 29px;
+  left: 329px;
+  width: 22px;
+  height: 20px;
+}
+.navigationbar .cart .added {
+  font-weight: 400;
+  position: absolute;
+  top: 24px;
+  left: 346px;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #ff7b9f;
+  z-index: 6;
+  color: white;
+  font-size: 8px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.tabbar {
+  font-weight: 400;
+  margin: auto;
+  font-size: 10px;
+  margin: 0px;
+  width: 100%;
+  height: 47px;
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  z-index: 5;
+  background-color: white;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  box-shadow: 0px 2px 7px rgba(19, 0, 6, 0.78);
+}
+.tabbar .coupon {
+  position: absolute;
+  top: 10px;
+  left: 48px;
+}
+.tabbar .coupon img {
+  width: 25px;
+  z-index: 6;
+}
+.tabbar .coupon p {
+  margin-top: 3px;
+  z-index: 6;
+}
+.tabbar .home {
+  position: absolute;
+  top: 10px;
+  left: 179px;
+}
+.tabbar .home img {
+  width: 20px;
+  z-index: 6;
+}
+.tabbar .home p {
+  margin-top: 3px;
+  z-index: 6;
+}
+.tabbar .profile {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+.tabbar .profile img {
+  width: 16px;
+  z-index: 6;
+}
+.tabbar .profile p {
+  margin-top: 3px;
+  z-index: 6;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0px;
+  padding: 0;
+}
+
+.button,
+.container {
+  position: relative;
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100%;
+}
+.main .swiper-container {
+  margin-top: 100px;
+  width: 100%;
+  height: 175px;
+}
+.main .swiper-container #credit .shape {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 29px;
+  height: 165px;
+  border-top-left-radius: 21.5px;
+  border-bottom-left-radius: 21.5px;
+  background-color: #e0e0e0;
+  box-shadow: 0px 2px 5px rgba(158, 77, 100, 0.5);
+}
+.main .swiper-container #visa .shape {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 165px;
+  border-top-right-radius: 21.5px;
+  border-bottom-right-radius: 21.5px;
+  background-color: #e0e0e0;
+  box-shadow: 0px 2px 5px rgba(158, 77, 100, 0.5);
+}
+.main .data {
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 41px;
+}
+.main .data .total {
+  font-size: 17px;
+  font-weight: 600;
+}
+.main .data .total .howmuch {
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.main .data .cardno {
+  padding-top: 23px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.main .data .cardno .box {
+  display: flex;
+}
+.main .data .cardno .box .input-border {
+  position: relative;
+  margin-top: 10px;
+  margin-left: -9px;
+  margin-right: 20px;
+  width: 60px;
+  height: 26px;
+  border-radius: 21.5px;
+  background: linear-gradient(90deg, #ff78ab 10%, #ff8f5e 90%);
+}
+.main .data .cardno .box .input-border input {
+  position: absolute;
+  top: 1.5px;
+  left: 1.5px;
+  margin: auto;
+  z-index: 2;
+  border: 0;
+  border-radius: 21.5px;
+  width: 57px;
+  height: 22px;
+}
+.main .data .carddate {
+  padding-top: 23px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+.main .data .carddate .box {
+  display: flex;
+}
+.main .data .carddate .box .input-border {
+  position: relative;
+  margin-top: 10px;
+  margin-left: -9px;
+  margin-right: 80px;
+  width: 60px;
+  height: 26px;
+  border-radius: 21.5px;
+  background: linear-gradient(90deg, #ff78ab 10%, #ff8f5e 90%);
+}
+.main .data .carddate .box .input-border input {
+  position: absolute;
+  top: 1.5px;
+  left: 1.5px;
+  margin: auto;
+  z-index: 2;
+  border: 0;
+  border-radius: 21.5px;
+  width: 57px;
+  height: 22px;
+}
+.main .data .carddate .box .input-border p {
+  position: absolute;
+  top: 5px;
+  left: 65px;
+}
+.main .button-border {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 42px;
+  text-align: center;
+  line-height: 43px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 285px;
+  height: 43px;
+  color: white;
+  border-radius: 21.5px;
+  background: linear-gradient(90deg, #ff78ab 10%, #ff8f5e 90%);
+}
+.main .button-border .button {
+  position: absolute;
+  top: 1.5px;
+  left: 1.5px;
+  z-index: 2;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  width: 282px;
+  height: 40px;
+  border-radius: 21.5px;
+  background: white;
+}
+
+/*# sourceMappingURL=style.css.map */
